@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="41" skipped="0" failures="0" errors="0" time="2.871" hostname="DESKTOP-5E0Q5RH" timestamp="2026-11-16T09:41:41">
+<properties>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="\"/>
+<property name="java.class.path" value="C:\Users\juanm\OneDrive\Desktop\Unse 2025\Sistemas III\Taller\DispensadorComet\lib\junit-platform-console-standalone-1.11.4.jar"/>
+<property name="java.class.version" value="71.0"/>
+<property name="java.home" value="C:\Program Files\Java\jdk-27.0.1.0.3"/>
+<property name="java.io.tmpdir" value="C:\Users\juanm\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\Java\jdk-27.0.1.0.3\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-25.0.5.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\ComposerSetup\bin;C:\PHP;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\juanm\AppData\Local\Microsoft\WindowsApps;C:\PHP;C:\Users\juanm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\juanm\AppData\Roaming\Composer\vendor\bin;C:\Users\juanm\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="27.0.1.0.3+1-2"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="27"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="https://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+<property name="java.version" value="27.0.1.0.3"/>
+<property name="java.version.date" value="2026-10-25"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode, sharing"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="27"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="27.0.1.0.3+1-2"/>
+<property name="jdk.debug" value="release"/>
+<property name="junit.docs.version" value="1.11.4"/>
+<property name="line.separator" value="&#13;&#10;"/>
+<property name="native.encoding" value="Cp1252"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 10"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="stderr.encoding" value="Cp1252"/>
+<property name="stdin.encoding" value="cp850"/>
+<property name="stdout.encoding" value="Cp1252"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-27.0.1.0.3\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="C:\Users\juanm\OneDrive\Desktop\Unse 2025\Sistemas III\Taller\DispensadorComet\lib\junit-platform-console-standalone-1.11.4.jar execute --class-path C:\Users\juanm\OneDrive\Desktop\Unse 2025\Sistemas III\Taller\DispensadorComet\build\classes;C:\Users\juanm\OneDrive\Desktop\Unse 2025\Sistemas III\Taller\DispensadorComet\build\test-classes --scan-class-path C:\Users\juanm\OneDrive\Desktop\Unse 2025\Sistemas III\Taller\DispensadorComet\build\test-classes --details tree --reports-dir build/reports --disable-ansi-colors"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="AR"/>
+<property name="user.dir" value="C:\Users\juanm\OneDrive\Desktop\Unse 2025\Sistemas III\Taller\DispensadorComet"/>
+<property name="user.home" value="C:\Users\juanm"/>
+<property name="user.language" value="es"/>
+<property name="user.name" value="juanm"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="America/Argentina/Buenos_Aires"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="respetaElRetardoDeDeteccion()" classname="ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest" time="0.021">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest]/[method:respetaElRetardoDeDeteccion()]
+display-name: La detección respeta el retardo de conmutación del sensor
+]]></system-out>
+</testcase>
+<testcase name="losDispositivosDeSalidaNoSeAccionanSolos()" classname="ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest" time="0.062">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest]/[method:losDispositivosDeSalidaNoSeAccionanSolos()]
+display-name: El buzzer y la cerradura responden sólo a los comandos del objeto límite
+]]></system-out>
+</testcase>
+<testcase name="interlockDelDesbloqueo()" classname="ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest" time="0.117">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest]/[method:interlockDelDesbloqueo()]
+display-name: La tapa nunca se desbloquea con el recipiente vacío ni con masa detectada tarde
+]]></system-out>
+</testcase>
+<testcase name="quitarEscuchaDejaDeNotificar()" classname="ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest" time="0.044">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest]/[method:quitarEscuchaDejaDeNotificar()]
+display-name: Un objeto límite dado de baja deja de recibir eventos
+]]></system-out>
+</testcase>
+<testcase name="comandoRepetidoNoConmuta()" classname="ar.edu.unse.sistemas3.limite.BuzzerOutputTest" time="0.035">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.BuzzerOutputTest]/[method:comandoRepetidoNoConmuta()]
+display-name: Repetir el mismo comando no produce una nueva conmutación
+]]></system-out>
+</testcase>
+<testcase name="registraComandosConDuracion()" classname="ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest" time="0.103">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest]/[method:registraComandosConDuracion()]
+display-name: Los comandos quedan registrados con su duración
+]]></system-out>
+</testcase>
+<testcase name="informaMasaDetectadaUnaSolaVez()" classname="ar.edu.unse.sistemas3.limite.EntradasTest" time="0.226">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.EntradasTest]/[method:informaMasaDetectadaUnaSolaVez()]
+display-name: BalanzaDePrecisionIO informa masa detectada una sola vez por detección
+]]></system-out>
+</testcase>
+<testcase name="bloquearDejaLaTapaBloqueada()" classname="ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest" time="0.032">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest]/[method:bloquearDejaLaTapaBloqueada()]
+display-name: El comando «bloquear» deja la tapa bloqueada
+]]></system-out>
+</testcase>
+<testcase name="registraLosComandos()" classname="ar.edu.unse.sistemas3.limite.BuzzerOutputTest" time="0.063">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.BuzzerOutputTest]/[method:registraLosComandos()]
+display-name: Cada comando queda registrado en la bitácora con su origen
+]]></system-out>
+</testcase>
+<testcase name="colocarMasaInformaMasaDetectada()" classname="ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest" time="0.043">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest]/[method:colocarMasaInformaMasaDetectada()]
+display-name: Colocar masa informa la medida y el evento «masa detectada»
+]]></system-out>
+</testcase>
+<testcase name="soportaEscriturasConcurrentes()" classname="ar.edu.unse.sistemas3.bitacora.RegistroEventosTest" time="0.402">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.bitacora.RegistroEventosTest]/[method:soportaEscriturasConcurrentes()]
+display-name: Soporta escrituras concurrentes sin perder sucesos
+]]></system-out>
+</testcase>
+<testcase name="arrancaBloqueada()" classname="ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest]/[method:arrancaBloqueada()]
+display-name: La cerradura arranca bloqueada: estado inicial seguro de CU-10
+]]></system-out>
+</testcase>
+<testcase name="rechazaMasaNegativa()" classname="ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest" time="0.025">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest]/[method:rechazaMasaNegativa()]
+display-name: Rechaza una masa negativa
+]]></system-out>
+</testcase>
+<testcase name="desbloquearSinMasaLanzaExcepcion()" classname="ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest" time="0.041">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest]/[method:desbloquearSinMasaLanzaExcepcion()]
+display-name: El comando «desbloquear» exige masa detectada: si no hay masa, falla
+]]></system-out>
+</testcase>
+<testcase name="tararDejaLaBalanzaEnCero()" classname="ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest" time="0.042">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest]/[method:tararDejaLaBalanzaEnCero()]
+display-name: Tarar deja la balanza en cero y cuenta la operación
+]]></system-out>
+</testcase>
+<testcase name="noPublicaEventoSinTransicion()" classname="ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest" time="0.085">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest]/[method:noPublicaEventoSinTransicion()]
+display-name: No publica evento si el estado no cambia: sólo hay transiciones
+]]></system-out>
+</testcase>
+<testcase name="ejecutaComandosDeLecturaYTara()" classname="ar.edu.unse.sistemas3.limite.EntradasTest" time="0.152">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.EntradasTest]/[method:ejecutaComandosDeLecturaYTara()]
+display-name: BalanzaDePrecisionIO ejecuta los comandos de lectura y de tara
+]]></system-out>
+</testcase>
+<testcase name="notificaSuscriptores()" classname="ar.edu.unse.sistemas3.bitacora.RegistroEventosTest" time="0.005">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.bitacora.RegistroEventosTest]/[method:notificaSuscriptores()]
+display-name: Notifica a los suscriptores cada suceso nuevo
+]]></system-out>
+</testcase>
+<testcase name="seConectaAlDispositivo()" classname="ar.edu.unse.sistemas3.limite.EntradasTest" time="0.146">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.EntradasTest]/[method:seConectaAlDispositivo()]
+display-name: El objeto límite se conecta al dispositivo al construirse
+]]></system-out>
+</testcase>
+<testcase name="lecturaIncoherenteSeRegistraComoAlerta()" classname="ar.edu.unse.sistemas3.limite.EntradasTest" time="0.072">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.EntradasTest]/[method:lecturaIncoherenteSeRegistraComoAlerta()]
+display-name: La lectura incoherente se registra como alerta y se propaga marcada
+]]></system-out>
+</testcase>
+<testcase name="arrancaEnCero()" classname="ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest]/[method:arrancaEnCero()]
+display-name: Arranca en cero y sin masa detectada
+]]></system-out>
+</testcase>
+<testcase name="lecturaIncoherenteNoAlteraElEstado()" classname="ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest]/[method:lecturaIncoherenteNoAlteraElEstado()]
+display-name: Una lectura incoherente del sensor no altera el estado del sistema
+]]></system-out>
+</testcase>
+<testcase name="arrancaCerrado()" classname="ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest]/[method:arrancaCerrado()]
+display-name: Arranca cerrado, como la tapa al iniciar el sistema
+]]></system-out>
+</testcase>
+<testcase name="desbloquearConMasaFunciona()" classname="ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest" time="0.072">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest]/[method:desbloquearConMasaFunciona()]
+display-name: Con masa detectada el comando «desbloquear» se ejecuta
+]]></system-out>
+</testcase>
+<testcase name="activarEnciendeElBuzzer()" classname="ar.edu.unse.sistemas3.limite.BuzzerOutputTest" time="0.02">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.BuzzerOutputTest]/[method:activarEnciendeElBuzzer()]
+display-name: El comando «activar alarma sonora» enciende el dispositivo
+]]></system-out>
+</testcase>
+<testcase name="retirarMasaDejaRecipienteVacio()" classname="ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest" time="0.082">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest]/[method:retirarMasaDejaRecipienteVacio()]
+display-name: Retirar la masa deja el recipiente vacío
+]]></system-out>
+</testcase>
+<testcase name="porDebajoDelUmbralNoDetecta()" classname="ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest" time="0.043">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest]/[method:porDebajoDelUmbralNoDetecta()]
+display-name: Por debajo del umbral no se considera masa detectada
+]]></system-out>
+</testcase>
+<testcase name="desactivarApagaElBuzzer()" classname="ar.edu.unse.sistemas3.limite.BuzzerOutputTest" time="0.033">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.BuzzerOutputTest]/[method:desactivarApagaElBuzzer()]
+display-name: El comando «desactivar alarma sonora» apaga el dispositivo
+]]></system-out>
+</testcase>
+<testcase name="registraElEventoRecibido()" classname="ar.edu.unse.sistemas3.limite.EntradasTest" time="0.023">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.EntradasTest]/[method:registraElEventoRecibido()]
+display-name: Registra el evento recibido con el nombre del objeto límite
+]]></system-out>
+</testcase>
+<testcase name="formateaLaEntrada()" classname="ar.edu.unse.sistemas3.bitacora.RegistroEventosTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.bitacora.RegistroEventosTest]/[method:formateaLaEntrada()]
+display-name: La entrada se formatea con hora, nivel y origen
+]]></system-out>
+</testcase>
+<testcase name="conservaOrdenYOrigen()" classname="ar.edu.unse.sistemas3.bitacora.RegistroEventosTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.bitacora.RegistroEventosTest]/[method:conservaOrdenYOrigen()]
+display-name: Conserva el orden cronológico y el origen de cada suceso
+]]></system-out>
+</testcase>
+<testcase name="bloqueoCumpleRt06()" classname="ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest" time="0.032">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest]/[method:bloqueoCumpleRt06()]
+display-name: El bloqueo cumple RT-06: menos de 500 ms
+]]></system-out>
+</testcase>
+<testcase name="lecturaIncoherenteSeMarcaComoIncoherente()" classname="ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest]/[method:lecturaIncoherenteSeMarcaComoIncoherente()]
+display-name: La lectura incoherente se publica marcada como tal (CU-03, flujo alternativo 5)
+]]></system-out>
+</testcase>
+<testcase name="secuenciaDeRetiroCompleta()" classname="ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest" time="0.194">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest]/[method:secuenciaDeRetiroCompleta()]
+display-name: Secuencia de retiro de CU-03 con los cuatro dispositivos simulados
+]]></system-out>
+</testcase>
+<testcase name="notificaATodosLosEscuchas()" classname="ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest" time="0.028">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest]/[method:notificaATodosLosEscuchas()]
+display-name: Notifica a todos los objetos límite conectados
+]]></system-out>
+</testcase>
+<testcase name="abrirPublicaEventoTapaAbierta()" classname="ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest" time="0.022">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest]/[method:abrirPublicaEventoTapaAbierta()]
+display-name: Al abrir publica el evento «tapa abierta» con su instante
+]]></system-out>
+</testcase>
+<testcase name="cerrarPublicaEventoTapaCerrada()" classname="ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest" time="0.043">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.SensorPosicionTapaTest]/[method:cerrarPublicaEventoTapaCerrada()]
+display-name: Al cerrar publica el evento «tapa cerrada»
+]]></system-out>
+</testcase>
+<testcase name="operaSinElSensorDeTapa()" classname="ar.edu.unse.sistemas3.limite.BuzzerOutputTest" time="0.018">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.BuzzerOutputTest]/[method:operaSinElSensorDeTapa()]
+display-name: El objeto límite no depende del sensor de tapa para operar
+]]></system-out>
+</testcase>
+<testcase name="contabilizaLecturas()" classname="ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.dispositivos.BalanzaDePrecisionTest]/[method:contabilizaLecturas()]
+display-name: Cada lectura de masa se contabiliza como comando
+]]></system-out>
+</testcase>
+<testcase name="desbloqueoRechazadoTrasRetirarLaMasa()" classname="ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest" time="0.083">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.limite.CerraduraTapaOutputTest]/[method:desbloqueoRechazadoTrasRetirarLaMasa()]
+display-name: Si la masa se retira, el desbloqueo vuelve a rechazarse
+]]></system-out>
+</testcase>
+<testcase name="elEventoLlegaAlControl()" classname="ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest" time="0.045">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:ar.edu.unse.sistemas3.integracion.InteraccionDispositivosTest]/[method:elEventoLlegaAlControl()]
+display-name: El evento de tapa llega al objeto límite y desde allí a los objetos de control
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>

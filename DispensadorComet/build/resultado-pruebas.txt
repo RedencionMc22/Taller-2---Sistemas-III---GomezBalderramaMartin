@@ -1,0 +1,73 @@
+
+Thanks for using JUnit! Support its development at https://junit.org/sponsoring
+
+╷
+├─ JUnit Platform Suite ✔
+├─ JUnit Jupiter ✔
+│  ├─ Objetos límite de entrada: SensorPosicionTapaInput y BalanzaDePrecisionIO (activ... ✔
+│  │  ├─ La lectura incoherente se registra como alerta y se propaga marcada ✔
+│  │  ├─ BalanzaDePrecisionIO informa masa detectada una sola vez por detección ✔
+│  │  ├─ BalanzaDePrecisionIO ejecuta los comandos de lectura y de tara ✔
+│  │  ├─ El objeto límite se conecta al dispositivo al construirse ✔
+│  │  └─ Registra el evento recibido con el nombre del objeto límite ✔
+│  ├─ SensorPosicionTapa: dispositivo de entrada simulado (actividad 1) ✔
+│  │  ├─ Notifica a todos los objetos límite conectados ✔
+│  │  ├─ Arranca cerrado, como la tapa al iniciar el sistema ✔
+│  │  ├─ Al abrir publica el evento «tapa abierta» con su instante ✔
+│  │  ├─ No publica evento si el estado no cambia: sólo hay transiciones ✔
+│  │  ├─ Un objeto límite dado de baja deja de recibir eventos ✔
+│  │  ├─ La detección respeta el retardo de conmutación del sensor ✔
+│  │  ├─ Al cerrar publica el evento «tapa cerrada» ✔
+│  │  └─ La lectura incoherente se publica marcada como tal (CU-03, flujo alternativo 5) ✔
+│  ├─ BuzzerOutput: objeto límite del dispositivo de salida (actividad 2) ✔
+│  │  ├─ Cada comando queda registrado en la bitácora con su origen ✔
+│  │  ├─ El objeto límite no depende del sensor de tapa para operar ✔
+│  │  ├─ Repetir el mismo comando no produce una nueva conmutación ✔
+│  │  ├─ El comando «activar alarma sonora» enciende el dispositivo ✔
+│  │  └─ El comando «desactivar alarma sonora» apaga el dispositivo ✔
+│  ├─ RegistroEventos: bitácora del banco de pruebas ✔
+│  │  ├─ Notifica a los suscriptores cada suceso nuevo ✔
+│  │  ├─ La entrada se formatea con hora, nivel y origen ✔
+│  │  ├─ Soporta escrituras concurrentes sin perder sucesos ✔
+│  │  └─ Conserva el orden cronológico y el origen de cada suceso ✔
+│  ├─ BalanzaDePrecision: dispositivo de entrada/salida simulado (actividad 1) ✔
+│  │  ├─ Retirar la masa deja el recipiente vacío ✔
+│  │  ├─ Por debajo del umbral no se considera masa detectada ✔
+│  │  ├─ Rechaza una masa negativa ✔
+│  │  ├─ Tarar deja la balanza en cero y cuenta la operación ✔
+│  │  ├─ Arranca en cero y sin masa detectada ✔
+│  │  ├─ Colocar masa informa la medida y el evento «masa detectada» ✔
+│  │  └─ Cada lectura de masa se contabiliza como comando ✔
+│  ├─ Interacción dispositivos ↔ objetos límite (consignas 1 y 2) ✔
+│  │  ├─ Secuencia de retiro de CU-03 con los cuatro dispositivos simulados ✔
+│  │  ├─ El buzzer y la cerradura responden sólo a los comandos del objeto límite ✔
+│  │  ├─ Una lectura incoherente del sensor no altera el estado del sistema ✔
+│  │  ├─ El evento de tapa llega al objeto límite y desde allí a los objetos de control ✔
+│  │  └─ La tapa nunca se desbloquea con el recipiente vacío ni con masa detectada tarde ✔
+│  └─ CerraduraTapaOutput: objeto límite del dispositivo de salida (actividad 2) ✔
+│     ├─ La cerradura arranca bloqueada: estado inicial seguro de CU-10 ✔
+│     ├─ Si la masa se retira, el desbloqueo vuelve a rechazarse ✔
+│     ├─ El bloqueo cumple RT-06: menos de 500 ms ✔
+│     ├─ El comando «bloquear» deja la tapa bloqueada ✔
+│     ├─ Los comandos quedan registrados con su duración ✔
+│     ├─ El comando «desbloquear» exige masa detectada: si no hay masa, falla ✔
+│     └─ Con masa detectada el comando «desbloquear» se ejecuta ✔
+└─ JUnit Vintage ✔
+
+Test run finished after 3561 ms
+[        10 containers found      ]
+[         0 containers skipped    ]
+[        10 containers started    ]
+[         0 containers aborted    ]
+[        10 containers successful ]
+[         0 containers failed     ]
+[        41 tests found           ]
+[         0 tests skipped         ]
+[        41 tests started         ]
+[         0 tests aborted         ]
+[        41 tests successful      ]
+[         0 tests failed          ]
+
+WARNING: Final field allParameters in class org.junit.platform.console.options.MainCommand has been mutated reflectively by class org.junit.platform.console.shadow.picocli.CommandLine$Model$FieldBinding in unnamed module @ba4d54 (file:/C:/Users/juanm/OneDrive/Desktop/Unse%202025/Sistemas%20III/Taller/DispensadorComet/lib/junit-platform-console-standalone-1.11.4.jar)
+WARNING: Use --enable-final-field-mutation=ALL-UNNAMED to avoid a warning
+WARNING: Mutating final fields will be blocked in a future release unless final field mutation is enabled
